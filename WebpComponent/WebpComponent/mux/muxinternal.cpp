@@ -439,7 +439,7 @@ static int IsNotCompatible(int feature, int num_items) {
   return (feature != 0) != (num_items > 0);
 }
 
-#define NO_FLAG 0
+#define NO_FLAG WEBPFEATURE_NOFLAG
 
 // Test basic constraints:
 // retrieval, maximum number of chunks by index (use -1 to skip)
